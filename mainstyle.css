@@ -1,0 +1,50 @@
+﻿#bannerImg{
+	object-fit: cover;
+}
+
+#pageBody{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+
+#bannerDiv{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+	margin: 30px;
+}
+
+#bannerImg{
+	width: 60%;
+	min-width: 600px;
+}
+
+#bannerText{
+	align-self: center;
+	font-size: 2rem;
+	margin: 20px;
+}
+
+#nav a {
+	color: white;
+}
+
+.CurrentPage {
+	opacity: 40% !important;
+}
+
+#socials{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	margin-top: 20px;
+}
+
+#socials a{
+	margin: 10px;
+	color: white;
+	text-decoration: none;
+}

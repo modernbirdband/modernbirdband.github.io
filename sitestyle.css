@@ -1,0 +1,38 @@
+﻿/* nav settings */
+
+p {
+	color: white;
+}
+
+.CurrentPage{
+	color: gray;
+	opacity: 90%;
+}
+
+#topNav{
+	display: flex;
+	position: sticky;
+	top: 0px;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+	background: pink;
+	padding: 10px;
+}
+
+#topNav.a {
+	color: black;
+}
+
+/* body settings */
+
+body {
+	margin: 0px;
+	background-color: black;
+	width: 100%;
+}
+
+#pageBody{
+	display: flex;
+	width: 100%;
+}

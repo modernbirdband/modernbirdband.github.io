@@ -1,0 +1,28 @@
+﻿#pageBody{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+
+.picDiv{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+
+.picDiv img{
+	width:70%;
+	min-width: 600px;
+	margin: 20px 10px;
+}
+
+.multi {
+	flex-direction: row !important;
+}
+
+.multi img{
+	min-width: 400px !important;
+	width: 35%;
+}
